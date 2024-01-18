@@ -1,0 +1,129 @@
+body{
+    max-width: 1920px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+/* *******header******* */
+
+.header {
+    max-width: 1560px;
+    padding-top: 20px;    
+    margin: auto;
+}
+
+.header__block {
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    justify-content: space-between;
+}
+.header__logo {
+
+}
+.nav__item {
+    display: flex;
+    gap: 55px;
+}
+.nav__list {
+    font-size: 12px;
+    font-weight: 700;
+}
+.nav__text {
+    color: black;
+
+}
+
+/* ******main****** */
+
+.section__main {
+    display: flex;
+    max-height: 425px;
+}
+.section__one__left, .section__one__center {
+    background-image: url(../images/N50/5c1a9de49dafa_geokrata-natan-1.jpg);
+    background-size: cover;
+    width: 33.33%;
+    height: 425px;
+}
+
+.section__one__center {
+    background-image: url(../images/obrzeża/6280020e92117_6267b0db58bf4-stylizowane-08.jpg);
+    background-size: cover;
+}
+.section__block__left, .section__block__center {
+    padding-left: 20px;
+    padding-top: 20%;
+}
+.section__title__left, .section__title__center, .section__title__rigcht {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 700;
+}
+.section__subtitle__left, .section__subtitle__center, .section__subtitle__rigcht {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.section__link__left, .section__link__center, .section__link__rigcht {
+    color: #FFF;
+    font-size: 10px;
+    font-weight: 700;
+    background-color: green;
+    padding: 10px;
+}
+.section__one__rigcht {
+    width: 33.33%;
+    height: 425px;
+}
+
+.section__block__rigcht1 {
+    position: relative;
+    background-image: url(../images/kotwy/6267b06b75326_stylizowane-07.jpg);
+    background-size: cover;
+    height: 38.3%;
+    position: relative;
+}
+
+.section__block__rigcht2 {
+    background-image: url(../images/taras/624ea98602e36_systemy-tarasowe.jpg);
+    background-size: cover;
+    height: 38.05%;
+}
+.section__block__rigcht1, .section__block__rigcht2 {
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+/* ************section__about************* */
+
+.section__about {
+    background-color: #F7F7F7;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.about__title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+.abuot__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 150px;
+}
+.text__left, .text__rigcht {
+    width: 45%;
+}
