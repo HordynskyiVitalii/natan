@@ -55,57 +55,86 @@ li {
     max-height: 425px;
 }
 .section__one__left, .section__one__center {
-    background-image: url(../images/N50/5c1a9de49dafa_geokrata-natan-1.jpg);
+    background-image: url(../images/N50/N515.jpg);
     background-size: cover;
+    position: relative;
     width: 33.33%;
     height: 425px;
+}
+.section__one__left::after {
+    content: '';
+    background: rgba(0, 0, 0, 0.4);
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 .section__one__center {
     background-image: url(../images/obrzeża/6280020e92117_6267b0db58bf4-stylizowane-08.jpg);
     background-size: cover;
 }
+.section__one__center::after {
+    content: '';
+    background: rgba(0, 0, 0, 0.4);
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
 .section__block__left, .section__block__center {
     padding-left: 20px;
     padding-top: 20%;
 }
-.section__title__left, .section__title__center, .section__title__rigcht {
+.section__title__left, .section__title__center, .section__title__right {
     color: #ffffff;
     font-size: 32px;
     font-weight: 700;
+    position: relative;
+    z-index: 1;
 }
-.section__subtitle__left, .section__subtitle__center, .section__subtitle__rigcht {
+.section__subtitle__left, .section__subtitle__center, .section__subtitle__right {
     color: #ffffff;
     font-size: 14px;
     font-weight: 600;
     padding-bottom: 20px;
+    position: relative;
+    z-index: 1;
+
 }
-.section__link__left, .section__link__center, .section__link__rigcht {
+.section__link__left, .section__link__center, .section__link__right {
     color: #FFF;
     font-size: 10px;
     font-weight: 700;
     background-color: green;
     padding: 10px;
+    position: relative;
+    z-index: 1;
 }
-.section__one__rigcht {
+.section__one__right {
     width: 33.33%;
     height: 425px;
-}
-
-.section__block__rigcht1 {
     position: relative;
+}
+.section__one__right::after {
+    content: '';
+    background: rgba(0, 0, 0, 0.4);
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.section__block__right1 {
     background-image: url(../images/kotwy/6267b06b75326_stylizowane-07.jpg);
     background-size: cover;
     height: 38.3%;
-    position: relative;
 }
-
-.section__block__rigcht2 {
+.section__block__right2 {
     background-image: url(../images/taras/624ea98602e36_systemy-tarasowe.jpg);
     background-size: cover;
     height: 38.05%;
 }
-.section__block__rigcht1, .section__block__rigcht2 {
+.section__block__right1, .section__block__right2 {
     padding-left: 20px;
     padding-top: 50px;
 }
@@ -127,7 +156,7 @@ li {
     justify-content: space-between;
     padding: 20px 150px;
 }
-.text__left, .text__rigcht {
+.text__left, .text__right {
     width: 45%;
 }
 
@@ -148,7 +177,7 @@ li {
     justify-content: center;
 }
 .group__19 {
-    width: 80%;
+    width: 100%;
 }
 
 /* *******footer__section******* */
@@ -176,8 +205,6 @@ width: 30%;
     display: flex;
     justify-content: space-between;
 
-}
-.footer__content {
 }
 .footer__list {
     padding: 3px 0 ;
